@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+   "install-backend": "cd chat-backend && npm install",
     "dev": "nodemon server.js",
     "test": "jest --watchAll"
   },
